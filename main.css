@@ -1,12 +1,12 @@
 .body {
     background: linear-gradient(to right, #ffffff, #cecece);
-    font-family: "Futura Light", "Arial", sans-serif;
+    font-family: "future-light", "Arial", sans-serif;
     margin: 0;
     padding: 0;
 }
 
 .titulo {
-    font-family: "Futura Light";
+    font-family: "future-light";
     text-align: left;
     margin: 25px;
     font-size: 45%;
@@ -14,7 +14,7 @@
 }
 
 .titulo2 {
-    font-family: "Futura Light";
+    font-family: "future-light";
     text-align: left;
     color: hwb(0 23% 77%);
     margin: 40px;
@@ -59,7 +59,7 @@
 }
 
 .texto-post {
-    font-family: "Futura Light";
+    font-family: "future-light";
     text-align: left;
     color: hwb(0 23% 77%);
     margin: 40px;
@@ -174,7 +174,7 @@
 }
 
 .titulo3 {
-    font-family: "Futura Light";
+    font-family: "future-light";
     color: hwb(0 23% 77%);
     text-align: center;
     font-size: 40px;
@@ -204,7 +204,7 @@
 }
 
 .container2 .bloco h2 {
-    font-family: "Futura Light";
+    font-family: "future-light";
     font-size: 35px;
     text-align: center;
     color: hwb(0 23% 77%);
@@ -252,3 +252,48 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    .titulo2 {
+        font-size: 25px;
+        margin: 20px;
+        margin-bottom: -20px;
+    }
+
+    .botoes {
+        text-align: center;
+    }
+
+    .bloco {
+        margin-top: 20px;
+    }
+
+    .bloco h2 {
+        font-size: 25px;
+    }
+
+    .bloco p {
+        font-size: 14px;
+    }
+
+    .bloco img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .linha-horizontal,
+    .linha-horizontal2 {
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .rodape {
+        padding: 10px 20px;
+    }
+}
+
