@@ -1,4 +1,4 @@
-body {
+.body {
     background: linear-gradient(to right, #ffffff, #cecece);
     font-family: "Futura Light", "Arial", sans-serif;
     margin: 0;
@@ -236,4 +236,19 @@ body {
  a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        font-size: 30px;
+        margin: 15px;
+    }
+    .titulo2 {
+        font-size: 25px;
+        margin: 20px;
+        margin-bottom: -20px;
+    }
+    .botoes {
+        text-align: center;
+    }
 }
